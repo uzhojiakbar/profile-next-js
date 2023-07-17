@@ -1,0 +1,17 @@
+.NavCon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 0 auto;
+    width: 1440px;
+    height: 80px;
+    position: relative;
+}
+
+.links {
+    display: flex;
+    gap: 40px;
+}
+
+.options {}

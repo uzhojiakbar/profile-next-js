@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: .1s;
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #222222;
+}
+
+.image {
+  width: 55px;
+  height: auto;
+  border-radius: 50%;
+  border: 1px solid white;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.image:hover {
+  border-radius: 0;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: 2px underline;
+}
